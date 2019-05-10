@@ -9,44 +9,99 @@ public static void main(String[] args) {
  print variable in java. */
     int i=10;//if, i is a variable
     System.out.println(i);
-if(a!=0)
-System.out.println("This statement will print only if a is not equal to zero");
-if(a>10 && a<20) //Prints only if a is between 10 and 20
-System.out.println("This statement will print only if a is between 10 and 20");
-if(if(a!=100)) /* if a not equal to 100,
-then add two numbers */
-res=a+b;
-if(System.out.println("Hello"))
-System.out.println("If statement has System.out.println statement");
+if ( a!=0 ) 
+{
+     System.out.println ( "This statement will print only if a is not equal to zero" ) ; 
+}
+if ( a>10 && a<20 ) //Prints only if a is between 10 and 20 
+{
+     System.out.println ( "This statement will print only if a is between 10 and 20" ) ; 
+}
+if ( if(a!=100) ) /* if a not equal to 100,
+then add two numbers */ 
+{
+     res = a + b ; 
+}
+if ( System.out.println("Hello") ) 
+{
+     System.out.println ( "If statement has System.out.println statement" ) ; 
+}
 if(a>b)
 
-if (res == 100)
-System.out.println("It is greater than 100");
+if ( res == 100 ) 
+{
+     System.out.println ( "It is greater than 100" ) ; 
+}
 
 
 
-if(a>c)
-big=a;
-if(func())
-value=func();
-if(a!=0)
-foo();
-if(b!=0)
-foo(int a, int b);
-if(c!=0)
-foo(bar(int a, int b));
-if(d!=0)
-foo(bar());
-if(a!=0) System.out.println("This statement will print only if a is not equal to zero");
-if(a>10 && a<20) System.out.println("This statement will print only if a is between 10 and 20");
-if(if(a!=100)) res=a+b;
-if(System.out.println("Hello")) System.out.println("If statement has System.out.println statement");
-if(a>b) if(a>c) big=a;
-if(func()) value=func();
-if(a!=0) foo();
-if(b!=0) foo(int a, int b);
-if(c!=0) foo(bar(int a, int b));
-if(d!=0) foo(bar());
+if ( a>c ) 
+{
+     big = a ; 
+}
+if ( func() ) 
+{
+     value = func ( ) ; 
+}
+if ( a!=0 ) 
+{
+     foo ( ) ; 
+}
+if ( b!=0 ) 
+{
+     foo ( int a, int b ) ; 
+}
+if ( c!=0 ) 
+{
+     foo ( bar(int a, int b) ) ; 
+}
+if ( d!=0 ) 
+{
+     foo ( bar() ) ; 
+}
+if ( a!=0 ) 
+{
+     System.out.println ( "This statement will print only if a is not equal to zero" ) ; 
+}
+if ( a>10 && a<20 ) 
+{
+     System.out.println ( "This statement will print only if a is between 10 and 20" ) ; 
+}
+if ( if(a!=100) ) 
+{
+     res = a + b ; 
+}
+if ( System.out.println("Hello") ) 
+{
+     System.out.println ( "If statement has System.out.println statement" ) ; 
+}
+if ( a>b ) 
+{
+     if ( a>c ) 
+{
+     big = a ; 
+} 
+}
+if ( func() ) 
+{
+     value = func ( ) ; 
+}
+if ( a!=0 ) 
+{
+     foo ( ) ; 
+}
+if ( b!=0 ) 
+{
+     foo ( int a, int b ) ; 
+}
+if ( c!=0 ) 
+{
+     foo ( bar(int a, int b) ) ; 
+}
+if ( d!=0 ) 
+{
+     foo ( bar() ) ; 
+}
 if(a==0){
 System.out.println("This is correct If Statement");
 }
